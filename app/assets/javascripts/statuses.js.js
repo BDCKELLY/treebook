@@ -1,0 +1,9 @@
+﻿(function() {
+
+  $(function() {
+    return $('.status').hover(function(event) {
+      return $(this).toggleClass("hover");
+    });
+  });
+
+}).call(this);
